@@ -31,3 +31,29 @@ A total of 3 high-risk scenarios, 2 medium-risk scenarios, and no low-risk scena
 6. Role-based access control (RBAC) to minimize unauthorized access to sensitive data or processes.
 7. Incident response procedures to detect and respond to credential stuffing and other automated attacks in real time.
 8. Use of an anomaly detection system to identify suspicious activities in the platform.
+
+# Threat Modelling Process Summary
+
+```mermaid
+
+mindmap
+  root((Attack Begins))
+    STRIDE/MITRE ATT&CK/Kill Chain
+      Conduct Inherent Risk Assessment
+      ::icon(fa fa-book)
+      Create Critical Asset List
+        Schedule and Scope Threat Modelling Workshop
+    Controls Required
+      Risks and Mitigations
+      Risk Summary
+        Remediation Workflow
+          Slack
+          JIRA
+    Attack Scenarios
+      Account Takeover
+      API Abuse
+      Data Exposure
+      Business Logic Abuse
+      Supply Chain Attack
+
+
