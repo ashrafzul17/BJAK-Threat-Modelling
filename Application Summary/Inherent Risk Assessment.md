@@ -1,8 +1,6 @@
-### 3. **Inherent Risk Assessment (IRA.md)**
-
-```markdown
 # Inherent Risk Assessment
 
+```markdown
 The BJAK platform processes sensitive data, interacts with third-party APIs, and supports a high volume of users, which presents several inherent risks. Below is the risk assessment for critical components.
 
 ## Key Risks
